@@ -1,8 +1,8 @@
 # a script that will calculate the user’s monthly savings based on inputted monthly income and expenses. It will then project these savings over a year, assuming a fixed interest rate, to demonstrate compound interest’s effect on savings.
 
 # Prompt the user for financial inputs
-income = float(input("Enter your monthly income: "))
-expenses = float(input("Enter your total monthly expenses: "))
+income = int(input("Enter your monthly income: "))
+expenses = int(input("Enter your total monthly expenses: "))
 
 # Calculate monthly savings
 monthly_savings = income - expenses
